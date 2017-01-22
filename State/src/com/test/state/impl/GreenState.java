@@ -1,4 +1,7 @@
-package state;
+package com.test.state.impl;
+
+import com.test.context.Context;
+import com.test.state.State;
 
 /**
  * Desc

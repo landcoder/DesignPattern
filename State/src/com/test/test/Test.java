@@ -1,4 +1,7 @@
-package state;
+package com.test.test;
+
+import com.test.context.Context;
+import com.test.state.impl.RedState;
 
 /**
  * Desc
