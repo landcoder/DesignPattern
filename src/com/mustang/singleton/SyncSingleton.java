@@ -1,4 +1,4 @@
-package com.test;
+package com.mustang.singleton;
 
 /**
  * 同步同步单例对象
@@ -12,13 +12,19 @@ public class SyncSingleton {
 
     public static SyncSingleton getInstance() {
         if (instance == null) {
-            synchronized (instance) {
-                if (instance == null) {
-                    instance = new SyncSingleton();
-                }
-            }
+            syncInit();
         }
         return instance;
+    }
+
+    private static synchronized void syncInit() {
+        if (instance == null) {
+            instance = new SyncSingleton();
+        }
+    }
+
+    public void print() {
+        System.out.println("sync singleton...");
     }
 
 }

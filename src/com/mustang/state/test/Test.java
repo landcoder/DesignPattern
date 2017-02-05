@@ -1,7 +1,7 @@
-package com.test.test;
+package com.mustang.state.test;
 
-import com.test.context.Context;
-import com.test.state.impl.RedState;
+import com.mustang.state.context.Context;
+import com.mustang.state.state.impl.RedState;
 
 /**
  * Desc

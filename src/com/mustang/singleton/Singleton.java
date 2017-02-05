@@ -1,4 +1,4 @@
-package com.test;
+package com.mustang.singleton;
 
 /**
  * 单例模式
@@ -10,9 +10,13 @@ public class Singleton {
     private static Singleton instance = null;
 
     public static Singleton getInstance() {
-        if (instance != null) {
+        if (instance == null) {
             instance = new Singleton();
         }
         return instance;
+    }
+
+    public void print() {
+        System.out.println("singleton...");
     }
 }
