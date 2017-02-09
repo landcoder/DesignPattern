@@ -7,3 +7,5 @@
 ###factory 工厂设计模式
 
 ###builder 建造者模式
+
+###prototype 原型模式
