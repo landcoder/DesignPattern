@@ -9,3 +9,5 @@
 ###builder 建造者模式
 
 ###prototype 原型模式
+
+###adapter 适配器模式
