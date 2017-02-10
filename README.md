@@ -11,3 +11,5 @@
 ###prototype 原型模式
 
 ###adapter 适配器模式
+
+###decorator 装饰器模式
