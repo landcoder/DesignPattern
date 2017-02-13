@@ -13,3 +13,5 @@
 ###adapter 适配器模式
 
 ###decorator 装饰器模式
+
+###proxy 代理模式
