@@ -15,3 +15,5 @@
 ###decorator 装饰器模式
 
 ###proxy 代理模式
+
+###facade 外观模式
