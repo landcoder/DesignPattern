@@ -17,3 +17,5 @@
 ###proxy 代理模式
 
 ###facade 外观模式
+
+###bridge 桥接模式
