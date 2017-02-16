@@ -19,3 +19,5 @@
 ###facade 外观模式
 
 ###bridge 桥接模式
+
+###composite 组合模式
