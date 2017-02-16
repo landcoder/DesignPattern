@@ -1,7 +1,7 @@
 package com.mustang.composite;
 
 /**
- * 将多个对象组合在一起进行操作，常用于表示树形结构中，例如二叉树，数等。
+ * 组合模式：将多个对象组合在一起进行操作，常用于表示树形结构中，例如二叉树，数等。
  * Created by Mustang on 17/2/16.
  */
 public class Tree {
