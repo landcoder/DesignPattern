@@ -21,3 +21,5 @@
 ###bridge 桥接模式
 
 ###composite 组合模式
+
+###flyweight 享元模式
