@@ -23,3 +23,5 @@
 ###composite 组合模式
 
 ###flyweight 享元模式
+
+###strategy 策略模式
