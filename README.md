@@ -27,3 +27,5 @@
 ###strategy 策略模式
 
 ###template_method 模板方法模式
+
+###observer 观察者模式
