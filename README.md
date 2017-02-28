@@ -29,3 +29,5 @@
 ###template_method 模板方法模式
 
 ###observer 观察者模式
+
+###iterator 迭代子模式
