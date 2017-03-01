@@ -31,3 +31,5 @@
 ###observer 观察者模式
 
 ###iterator 迭代子模式
+
+###chain_of_responsibility 责任链模式
