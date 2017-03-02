@@ -33,3 +33,5 @@
 ###iterator 迭代子模式
 
 ###chain_of_responsibility 责任链模式
+
+###command 命令模式
