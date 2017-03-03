@@ -35,3 +35,5 @@
 ###chain_of_responsibility 责任链模式
 
 ###command 命令模式
+
+###memento 备忘录模式
