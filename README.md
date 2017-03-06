@@ -37,3 +37,5 @@
 ###command 命令模式
 
 ###memento 备忘录模式
+
+###visitor 访问者模式
