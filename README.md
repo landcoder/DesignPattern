@@ -41,3 +41,5 @@
 ###visitor 访问者模式
 
 ###mediator 中介者模式
+
+###interpretor 解释器模式
