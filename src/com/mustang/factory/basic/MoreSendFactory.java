@@ -1,7 +1,7 @@
 package com.mustang.factory.basic;
 
 /**
- * Desc
+ * 多工厂方法
  * Created by Mustang on 17/2/5.
  */
 public class MoreSendFactory {

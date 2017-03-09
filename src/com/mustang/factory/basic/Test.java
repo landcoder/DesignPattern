@@ -1,7 +1,7 @@
 package com.mustang.factory.basic;
 
 /**
- * Desc
+ * 普通工厂方法模式：1、普通工厂，2、多方法工厂，3、静态方法工厂
  * Created by Mustang on 17/2/5.
  */
 public class Test {

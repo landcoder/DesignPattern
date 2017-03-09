@@ -1,7 +1,7 @@
 package com.mustang.factory.abs;
 
 /**
- * Desc
+ * 短信发送者
  * Created by Mustang on 17/2/5.
  */
 public class SmsSender implements Sender {

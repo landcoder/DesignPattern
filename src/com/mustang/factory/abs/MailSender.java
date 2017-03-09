@@ -1,7 +1,7 @@
 package com.mustang.factory.abs;
 
 /**
- * Desc
+ * 邮件发送者
  * Created by Mustang on 17/2/5.
  */
 public class MailSender implements Sender {

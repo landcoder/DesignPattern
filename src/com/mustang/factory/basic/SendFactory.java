@@ -1,7 +1,7 @@
 package com.mustang.factory.basic;
 
 /**
- * Desc
+ * 普通工厂
  * Created by Mustang on 17/2/5.
  */
 public class SendFactory {
