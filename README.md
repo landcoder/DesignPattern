@@ -1,4 +1,4 @@
-# DesignPattern 设计模式
+#设计模式
 
 ##设计模式的分类
 * 总体来说设计模式分为三大类：
@@ -6,33 +6,36 @@
 	* 创建型模式(共五种)：
 		* [工厂方法模式](#c_factory)
 		* [抽象工厂模式](#a_factory)
-		* 单例模式
-		* 建造者模式
-		* 原型模式
+		* [单例模式](#singleton)
+		* [建造者模式](#builder)
+		* [原型模式](#prototype)
 
 	* 结构型模式(共七种)：
-		* 适配器模式
-		* 装饰器模式
-		* 代理模式
-		* 外观模式
-		* 桥接模式
-		* 组合模式
-		* 享元模式
+		* [适配器模式](#adapter)
+		* [装饰器模式](#decorator)
+		* [代理模式](#proxy)
+		* [外观模式](#facade)
+		* [桥接模式](#bridge)
+		* [组合模式](#composite)
+		* [享元模式](#flyweight)
 
 	* 行为型模式(共十一种)：
-		* 策略模式
-		* 模板方法模式
-		* 观察者模式
-		* 迭代子模式
-		* 责任链模式
-		* 命令模式
-		* 备忘录模式
-		* 状态模式
-		* 访问者模式
-		* 中介者模式
-		* 解释器模式
+		* [策略模式](#strategy)
+		* [模板方法模式](#template_method)
+		* [观察者模式](#observer)
+		* [迭代子模式](#iterator)
+		* [责任链模式](#chain_of_responsibility)
+		* [命令模式](#command)
+		* [备忘录模式](#memento)
+		* [状态模式](#state)
+		* [访问者模式](#visitor)
+		* [中介者模式](#mediator)
+		* [解释器模式](#interpretor)
 
 ***
+
+##设计模式详细介绍
+
 ###<a id="c_factory">工厂设计模式(factory)</a>
 * 1 工厂模式
 	* 1 普通工厂
@@ -57,65 +60,66 @@
 	![1.jpg](http://dl.iteye.com/upload/attachment/0083/1185/34a0f8de-16e0-3cd5-9f69-257fcb2be742.jpg?_=3023236)
 
 ***
-###singleton 单例设计模式
+###<a id = "singleton">单例设计模式(singleton)</a>
 
 ***
-###builder 建造者模式
+###<a id = "builder">建造者模式(builder)</a>
 
 ***
-###prototype 原型模式
+###<a id = "prototype">原型模式(prototype)</a>
 
 ***
-###adapter 适配器模式
+###<a id = "adapter">适配器模式(adapter)</a>
 
 ***
-###decorator 装饰器模式
+###<a id = "decorator">装饰器模式(decorator)</a>
 
 ***
-###proxy 代理模式
+###<a id = "proxy">代理模式(proxy)</a>
 
 ***
-###facade 外观模式
+###<a id = "facade">外观模式(facade)</a>
 
 ***
-###bridge 桥接模式
+###<a id = "bridge">桥接模式(bridge)</a>
 
 ***
-###composite 组合模式
+###<a id = "composite">组合模式(composite)</a>
 
 ***
-###flyweight 享元模式
+###<a id = "flyweight">享元模式(flyweight)</a>
 
 ***
-###strategy 策略模式
+###<a id = "strategy">策略模式(strategy)</a>
 
 ***
-###template_method 模板方法模式
+###<a id = "template_method">模板方法模式(template method)</a>
 
 ***
-###observer 观察者模式
+###<a id = "observer">观察者模式(observer)</a>
 
 ***
-###iterator 迭代子模式
+###<a id = "iterator">迭代子模式(iterator)</a>
 
 ***
-###chain_of_responsibility 责任链模式
+###<a id = "chain_of_responsibility">责任链模式(chain of responsibility)</a>
 
 ***
-###command 命令模式
+###<a id = "command">命令模式(command)</a>
 
 ***
-###memento 备忘录模式
+###<a id = "memento">备忘录模式(memento)</a>
 
 ***
-###visitor 访问者模式
+###<a id = "state">状态设计模式(state)</a>
 
 ***
-###mediator 中介者模式
+###<a id = "visitor">访问者模式(visitor)</a>
 
 ***
-###interpretor 解释器模式
+###<a id = "mediator">中介者模式(mediator)</a>
 
 ***
-###state 状态设计模式 
+###<a id = "interpretor">解释器模式(interpretor)</a>
+
 
