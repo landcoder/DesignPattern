@@ -98,24 +98,47 @@
 ***
 ###<a id = "adapter">适配器模式(adapter)</a>
 * 类的适配器模式
-
+<p>当希望将一个类转换成满足另一个新接口的类时可以使用类的适配器模式，创建一个新类，集成原有的类，实现新的接口即可。</p>
 ![1.jpg](http://dl.iteye.com/upload/attachment/0083/1189/6b2d13aa-7cc7-3e98-9764-bdcb2c64f795.jpg?_=3023236)
 
 * 对象的适配器模式
+<p>当希望将一个对象转换成满足另一个新接口的对象时，可以创建一个Wrapper类，持有原类的一个实例，在Wrapper类的方法中，调用实例的方法就行。</p>
+![1.jpg](http://dl.iteye.com/upload/attachment/0083/1191/0aabe35b-5b79-3ead-838f-9d4b6fbd774d.jpg?_=3023236)
 
 * 接口的适配器模式
+<p>当不希望实现一个借口中所有的方法时，可以创建一个抽象类Wrapper，实现所有方法，我们写别的类的时候，集成抽象类即可。</p>
+![1.jpg](http://dl.iteye.com/upload/attachment/0083/1193/a604fca8-e0c6-3e4e-b00a-49da21595b4e.jpg?_=3023236)
 
 ***
 ###<a id = "decorator">装饰器模式(decorator)</a>
+<p>动态的给一个对象添加一些新功能，装饰对象和被装饰对象实现同一个借口，装饰对象持有被装饰对象的实例。</p>
+* 应用场景：
+	* 1、需要扩展一个类的功能；
+	* 2、动态的为一个对象增加功能，而且还能动态撤销(继承的功能是静态的，不能动态删除)。
+	
+![1.jpg](http://dl.iteye.com/upload/attachment/0083/1195/e1b8b6a3-0150-31ae-8f77-7c3d888b6f80.jpg?_=3023236)
 
 ***
 ###<a id = "proxy">代理模式(proxy)</a>
+<p>代理模式就是找个中间人替自己做自己不方便做的事。</p>
+* 应用场景：
+	*  不修改原有类的方法，来对其进行扩展；
+	*  采用一个代理类调用原有的方法，且对产生的结果进行控制。
+
+![1.jpg](http://dl.iteye.com/upload/attachment/0083/1197/ea094ad9-efc5-337d-a8e8-ce9223511144.jpg?_=3023236)
 
 ***
 ###<a id = "facade">外观模式(facade)</a>
+<p>外观模式为了解决类和类之间的依赖关系，将类和类放到一个Facade钟，降低类类之间的耦合度，该模式不涉及任何接口。</p>
+![1.jpg](http://dl.iteye.com/upload/attachment/0083/1199/eebe2103-6ced-35f2-8664-3a2e8a557f81.jpg?_=3023236)
 
 ***
 ###<a id = "bridge">桥接模式(bridge)</a>
+<p>桥接模式就是把事物和其具体实现分开，使他们可以各自独立的变化。</p>
+![1.jpg](http://dl.iteye.com/upload/attachment/0083/1201/35f0b172-b976-3757-bb51-c65d5c9ce68e.jpg?_=3023236)
+
+<p>我们常用的JDBC桥DriverManager就是桥接模式，JDBC进行连接数据库的时候，在各个数据库之间进行切换，基本不需要动太多的代码，原因就是JDBC提供统一接口，每个数据库提供各自的实现，用一个叫数据库驱动的程序来桥接就行了。</p>
+![1.jpg](http://dl.iteye.com/upload/attachment/0083/1203/6f713d07-1409-3312-99c9-fa6b0909f0b2.jpg?_=3023236)
 
 ***
 ###<a id = "composite">组合模式(composite)</a>
